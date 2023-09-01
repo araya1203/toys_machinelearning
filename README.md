@@ -1,33 +1,14 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "d54900fb-ae39-48cb-a25a-ee382a74af5a",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.11.3"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+서비스: 병원
+목표변수:(범주형) : 수술기법
+설명변수 6개 : 
+
+
+연속형
+전방디스크높이(mm) , 
+후방디스크높이(mm),
+입원기간 
+
+범주
+척추전방위증,
+환자통증정도,
+스테로이드치료
