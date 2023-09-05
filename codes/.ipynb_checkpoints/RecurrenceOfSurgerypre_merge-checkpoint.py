@@ -223,6 +223,19 @@ minMaxScaler = MinMaxScaler() # 인스턴스화
 features = minMaxScaler.fit_transform(features)
 features.shape 
 
+### 정형화 단계 (민정언니꺼 붙이기!!)
+
+
+from sklearn.model_selection import train_test_split
+
+features_train, features_test, target_train, target_test = train_test_split(features, target, random_state=111)
+features_train.shape, target_train.shape, features_test.shape, target_test.shape
+
+
+# 정형화
+target = df_ROS_dropna['척추전방위증']  # 목표변수 target
+features = df_ROS_dropna[['체중', '신장','입원기간' ]] #설명변수 features
+target.shape, features.shape  
 
 # Split
 from sklearn.model_selection import train_test_split
